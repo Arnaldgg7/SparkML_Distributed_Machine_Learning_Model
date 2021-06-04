@@ -1,7 +1,7 @@
 # SparkML_Distributed_Machine_Learning_Model
 We exploit to the full the capabilities of distributed processing using a Distributed Linear Support Vector Machine to retrieve, train the model and predict a medical dataset.
 
-The present dataset that is used to perform this distributed machine learning implementation using Spark and its well-known librart SparkML (previously known as SparkMLLib) is inspired in a real problem aimed at determining the days a patient is going to stay in the hospital based on their medical history. Since the dataset is artifficially created, the expected global Accuracy is around 65%. In our implementation though, we get a 68.24% of global Accuracy, which outperforms the theoretical expected one.
+The present dataset that is used to perform this distributed machine learning implementation using Spark and its well-known library SparkML (previously known as SparkMLLib) is inspired in a real problem aimed at determining the days a patient is going to stay in the hospital based on their medical history. Since the dataset is artifficially created, the expected global Accuracy is around 65%. In our implementation though, we get a 68.24% of global Accuracy, which outperforms the theoretical expected one.
 
 In the real problem, predicting exactly the days that a patient is going to stay in the hospital was extremely difficult. Therefore, such a regression problem was reconverted to a classification problem, thereby establishing ranges of days as classes and classify the individuals accordingly into them.
 
